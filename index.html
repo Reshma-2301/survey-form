@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>form </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!--main heading survey from-->
+        <div class="form-container">
+            <h1 class="main-heading">Survey Form </h1>
+            <hr>
+            <!--form start -->
+            <form class="form-class">
+                <div class="form-control">
+                    <!--customer name code-->
+                    <div class="heading-field">
+                        <h3 class="field-head">Customer Name</h3>
+                    </div>
+                    <!--customer input code
+                  code for first name-->
+                    <div class="input-gap">
+                        <div class="input-area">
+                            <input type="text" id="first-name" name="first-name"
+                                required>
+                            <div id="fname"> enter your first name</div>
+                        </div>
+                        <!--code for last name-->
+                        <div class="input-area">
+                            <input type="text" id="last-name" name="last-name"
+                                required>
+                            <div id="lname"> enter your last name</div>
+
+                        </div>
+                    </div>
+                </div>
+                <!--code for address heading -->
+                <div claas="form-control">
+                    <div class="heading-field">
+                        <h3 class="field-head">Address</h3l>
+
+                    </div>
+                    <!--code for address input 
+                    street address-->
+                    
+                    <div class="input-area">
+                        <input type="text" id="street-address"
+                            name="street-address" required>
+                        <div id="street-address-word">street address</div>
+                    </div>
+                    <!-- code for street address line 2-->
+                    <div class="input-area">
+                        <input type="text" id="street-address-line2"
+                            name="street-address-line2">
+                        <div id="street-address-word2">street address line
+                            2</div>
+
+                    </div>
+                    <!--code for city-->
+                    
+                    <div class="input-area">
+                        <input type="text" id="city" name="city" required>
+                        <div id="city-name"> city</div>
+
+                    </div>
+                    <!--code for state-->
+                    <div class="input-gap">
+                    <div class="input-area">
+                        <input type="text" id="state" name="state" required>
+                        <div id="state-name"> state</div>
+
+                    </div>
+                    <!--code for pin code-->
+                    <div class="input-area">
+                        <input type="number" id="pincode" name="pincode">
+                        <div id="pincodearea" class="help-text">Pin Code </div>
+                    </div>
+                    </div>
+                    <!--code for 
+                      to select country-->
+                    <div class="input-area">
+                        <select class="select-class" name="country">
+                            <option value="afghanistan">Afghanistan</option>
+                            <option value="brazil">Brazil</option>
+                            <option value="canada">Canada</option>
+                            <option value="Denmark">Denmark</option>
+                            <option value="India">India</option>
+                        </select>
+                        <div id="select-country" clas="help-text"> Select
+                            Country</div>
+                            </div>
+                    
+                </div>
+                <!--code for contact-->
+                <div class="form-control">
+                    <div class="heading-field">
+                        <h3 class="field-head">Contact</h3>
+                    </div>
+                    <div class="input-gap">
+                    <div class="input-area">
+                        <input type="number" id="phone-no" name="phone-number">
+                        <div id="phone_number" class="help-text"> phone
+                            number</div>
+
+                    </div>
+                    <div class="input-area">
+                        <input type="email" id="email" class="email-id">
+                        <div id="email-id" class="help-text">Email Id</div>
+                        </div>
+                    </div>
+                </div>
+                <!--code for adding gender-->
+                <div class="form control">
+                    <div class="heading-field">
+                        <h3 class="field-head">Gender</h3>
+                    </div>
+                    <div class="input-area">
+                        <input type="radio" id="male" name="gender"
+                            value="male">
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="gender"
+                            value="female">
+                        <label for="female">Female</label>
+                        <input type="radio" id="others" name="gender"
+                            value="others">
+                        <label for="others">others</label>
+                    </div>
+                </div>
+                <!--code for adding age -->
+                <div class="form-control">
+                    <div class="heading-field">
+                        <h3 class="field-head"> Age</h3>
+                    </div>
+                    <div class="input-area">
+                        <input type="number" id="age" name="age">
+                        <div id="age-help">enter your age</div>
+                    </div>
+
+                </div>
+                <!--code for adding rating -->
+                <div class="form control">
+                    <div class="heading-field">
+                        <h3 class="field-head">Rating</h3>
+                    </div>
+                    
+                    <div class="input-area">
+                        <h4 class="no-gap">Rating 1:</h4>
+                        <div class="input-div" style="display: flex; gap:9px;">
+                            <input type="radio" id="good" name="good">
+                            <lable for="good">Good</lable>
+                            <input type="radio" id="average" name="average">
+                            <lable for="average">Average</lable>
+                            <input type="radio" id="bad" name="bad">
+                            <lable for="bad">Bad</lable>
+                        </div>
+                    </div>
+                    <div class="input-area">
+                        <h4 class="no-gap">Rating 2:</h4>
+                        <div class="input-div" style="display: flex; gap:9px;">
+                            <input type="radio" id="good" name="good">
+                            <lable for="good">Good</lable>
+                            <input type="radio" id="average" name="average">
+                            <lable for="average">Average</lable>
+                            <input type="radio" id="bad" name="bad">
+                            <lable for="bad">Bad</lable>
+                        </div>
+                    </div>
+                    <div class="input-area">
+                        <h4 class="no-gap">Rating 3:</h4>
+                        <div class="input-div" style="display: flex; gap:9px;">
+                            <input type="radio" id="good" name="good">
+                            <lable for="good">Good</lable>
+                            <input type="radio" id="average" name="average">
+                            <lable for="average">Average</lable>
+                            <input type="radio" id="bad" name="bad">
+                            <lable for="bad">Bad</lable>
+                        </div>
+                    </div>
+                    <div class="input-area">
+                        <h4 class="no-gap">Rating 4:</h4>
+                        <div class="input-div" style="display: flex; gap:9px;">
+                            <input type="radio" id="good" name="good">
+                            <lable for="good">Good</lable>
+                            <input type="radio" id="average" name="average">
+                            <lable for="average">Average</lable>
+                            <input type="radio" id="bad" name="bad">
+                            <lable for="bad">Bad</lable>
+                        </div>
+                    </div>
+
+                    <div class="input-area">
+                        <h4  class="no-gap">Rating 5:</h4>
+                        <div class="input-div" style="display: flex; gap:9px;">
+                            <input type="radio" id="good" name="good">
+                            <lable for="good">Good</lable>
+                            <input type="radio" id="average" name="average">
+                            <lable for="average">Average</lable>
+                            <input type="radio" id="bad" name="bad">
+                            <lable for="bad">Bad</lable>
+                            
+                        </div>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+
+    </body>
+</html>

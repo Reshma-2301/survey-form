@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: white;
+    background-color: black;
+}
+
+.form-container {
+    max-width: 50rem;
+    margin: 2rem auto;
+    padding: 0 2rem;
+    border: 1px solid;
+}
+
+.main-heading {
+    font-size: 4rem;
+    margin: 2rem 0 1rem;
+    color: white;
+    text-align: center;
+}
+
+.form-class {
+    margin: 2rem 0;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+}
+
+.heading-field {
+    margin: 1rem 0 0.6rem;
+}
+
+.field-head {
+    font-size: 2rem;
+}
+
+.input-gap {
+    display: flex;
+    gap: 8rem;
+    
+}
+.input-area{
+    padding-bottom: 1rem;
+}
+
+.input-area input[type="text"],
+.input-area input[type="email"],
+.input-area input[type="number"]
+ {
+    font-size: 1.5rem;
+    padding: 2rem 6;
+    text-indent: 0.5rem;
+    border: none;
+    outline: 2px solid #999;
+    border-radius: 7px;
+    width:90%;
+    color: #999;
+}
+
+.input-area input[type="text"]:focus,
+.input-area input[type="number"]:focus,
+.input-area select:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #86b7fe;
+    outline: 2;
+    box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
+
+}
+
+.help-text {
+    font-size: 0.7rem;
+    margin-top: 0.4rem;
+    padding: 0.1rem;
+}
+.input-div{
+    font-size: small;
+}
+   
